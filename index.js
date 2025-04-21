@@ -286,7 +286,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         rectBackgroundColor: '#ffffff',
         textColor: '#121212',
         highlightedTextColor: '#ff0000',
-        fontSize: 0.16,
+        fontSize: 0.13,
         lineHeight: 1.2,
         spaceWidth: 0.05,
         fontUrl: 'https://fonts.cdnfonts.com/s/12165/Roboto-Regular.woff',
