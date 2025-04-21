@@ -122,8 +122,7 @@ class App {
     }
 
     #handleContainerResize = () => {
-        const aspect = this.options.container.clientWidth / this.options.container.clientHeight;
-        this.#camera.aspect = aspect;
+        this.#camera.aspect = this.options.container.clientWidth / this.options.container.clientHeight;
         this.#camera.updateProjectionMatrix();
         this.#renderer.setSize(this.options.container.clientWidth, this.options.container.clientHeight);
         this.update();
