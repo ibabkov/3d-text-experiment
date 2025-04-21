@@ -1,0 +1,22 @@
+{
+  "name": "3d-text-experiment",
+  "version": "1.0.0",
+  "description": "This is a perspective camera view, showing randomly positioned surfaces with text. When you hover over the text with the mouse - text will be highlighted.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibabkov/3d-text-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibabkov/3d-text-experiment/issues"
+  },
+  "homepage": "https://github.com/ibabkov/3d-text-experiment#readme",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

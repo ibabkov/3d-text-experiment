@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D Text Experiment</title>
+    <style>
+        @font-face {
+            font-family: 'Huntesla Gloficka';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Huntesla Gloficka'), url('https://fonts.cdnfonts.com/s/12165/Roboto-Regular.woff') format('woff');
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .app {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background-color: #141414;
+            font: 12px Huntesla Gloficka, sans-serif;
+        }
+
+        .app canvas {
+            display: block;
+        }
+    </style>
+    <link as="font" crossorigin="anonymous" href="https://fonts.cdnfonts.com/s/12165/Roboto-Regular.woff" rel="preload"
+          type="font/woff">
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://jspm.dev/three@0.159.0",
+            "three/examples/jsm/controls/OrbitControls.js": "https://jspm.dev/three@0.159.0/examples/jsm/controls/OrbitControls.js",
+            "troika-three-text": "https://jspm.dev/troika-three-text@0.49.0?deps=three@0.159.0"
+          }
+        }
+    </script>
+    <script src="./index.js" type="module"></script>
+</head>
+<body>
+<div class="app" id="app"></div>
+</body>
+</html>
