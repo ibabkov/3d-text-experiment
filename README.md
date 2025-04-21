@@ -6,6 +6,9 @@ When you hover over the text with the mouse - text will be highlighted.
 To run this project successfully, it must be served through a local development server to handle CORS restrictions and
 properly load external resources like Three.js.
 
+**If you don't want to run the server locally**:
+### [Live Demo](https://ibabkov.github.io/3d-text-experiment/) 🌐
+
 ### Instructions:
 
 1. **Start the server**:
@@ -28,11 +31,8 @@ properly load external resources like Three.js.
   in this mode.
 - Serving the project through a local server ensures all dependencies are correctly resolved.
 
-
-- For optimal performance, please ensure that your browser matches the following support criteria:
-  **Supported Browsers**:
+### Supported Browsers:
   ```plain text
-  # .browserslistrc
   last 2 Chrome versions
   last 2 Firefox versions
   last 2 Safari versions
